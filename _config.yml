@@ -59,7 +59,7 @@ content:
   #   content:
   #     - layout: top-middle
   #       title: Conductor
-  #       link: propietary 
+  #       link: Proprietary 
   #       # link_text: Project Website
   #       # additional_links:
   #       #   - title:  sproogen/modern-resume-theme
@@ -80,18 +80,40 @@ content:
         title: CI/CD Pipeline
         # link: cigna.com
         # link_text: boringcompany.com
-        sub_title: Software Engineering Advisor
-        caption: |
-          Tech stack
-            - Jenkins
-            - Ansible (Tower)
-            - Docker
+        sub_title: Proprietary
+        caption: A robust pipeline designed to deploy microservices to a kubernetes cluster.
         quote: >
-          A robust pipeline designed to deploy microservices to a kubernetes cluster.
+          Tech Stack: Jenkins, Groovy, Ansible, Docker, Python, Helm, Openshift
         description: | 
-          - test
-          - test
-          - test
+          - Defined build, test, packaging, deployment, and post deployment validation stages
+          - Enforced code coverage and automated checkout scripts
+          - Implemented a workflow encouraging better coding practices
+          - Reduced production deployment errors to single digit instances over the course of the year. 
+
+  - title: App Development Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Analytics API
+        # link: cigna.com
+        # link_text: boringcompany.com
+        sub_title: Proprietary
+        caption: An event driven API used to register actions against a defined topic
+        quote: >
+          Tech Stack: Python, SQLAlchemy, Flask, PostgreSQL, Docker, Quay, Jenkins, Helm, Openshift
+        description: | 
+          - TBD
+      
+      - layout: left
+        title: Authentication API
+        # link: cigna.com
+        # link_text: boringcompany.com
+        sub_title: Proprietary
+        caption: A JWT generator utilizing LDAP as an identity provider
+        quote: >
+          Tech Stack: Python, SQLAlchemy, Fast, PostgreSQL, Docker, Quay, Jenkins, Helm, Openshift
+        description: | 
+          - TBD 
 
 
   - title: Education # Title for the section
