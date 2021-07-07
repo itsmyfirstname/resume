@@ -85,9 +85,9 @@ content:
         quote: >
           A robust pipleline designed to deploy microservices to a kubernetes cluster.
         description: | 
-        - test
-        - test
-        - test
+          - test
+          - test
+          - test
 
 
   - title: Education # Title for the section
