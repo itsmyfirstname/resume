@@ -54,26 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
     - <mark>CI/CD</mark>
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Conductor
-  #       link: Proprietary 
-  #       # link_text: Project Website
-  #       # additional_links:
-  #       #   - title:  sproogen/modern-resume-theme
-  #       #     icon: fab fa-github
-  #       #     url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         A common CI/CD pattern for all team applications deploying to company cloud inastructure. 
-  #       description: | # this will include new lines to allow paragraphs
-  #         This was the first project I was assigned .
-
-  - title: Devops Experience # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -89,10 +70,21 @@ content:
           - Enforced code coverage and automated checkout scripts
           - Implemented a workflow encouraging better coding practices
           - Reduced production deployment errors to single digit instances over the course of the year. 
+      
+      - layout: left
+        title: AWS Migrations
+        # link: cigna.com
+        # link_text: boringcompany.com
+        sub_title: Proprietary
+        caption: 
+        quote: >
+          Tech Stack: AWS[EMR,S3,Athena,Dynamo,SNS], Terraform/grunt, Plz, Cloudbees, Python
+        description: | 
+          - Defined build, test, packaging, deployment, and post deployment validation stages
+          - Enforced code coverage and automated checkout scripts
+          - Implemented a workflow encouraging better coding practices
+          - Reduced production deployment errors to single digit instances over the course of the year.
 
-  - title: App Development Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: Analytics API
         # link: cigna.com
@@ -114,7 +106,17 @@ content:
           Tech Stack: Python, SQLAlchemy, Fast, PostgreSQL, Docker, Quay, Jenkins, Helm, Openshift
         description: | 
           - TBD 
-
+      
+      - layout: left
+        title: Data Extraction API
+        # link: cigna.com
+        # link_text: boringcompany.com
+        sub_title: Proprietary
+        caption: An API to connect to various source systems to execute queries
+        quote: >
+          Tech Stack: Python, SQLAlchemy, Fast, PostgreSQL, Docker, Quay, Jenkins, Helm, Openshift
+        description: | 
+          - TBD 
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
