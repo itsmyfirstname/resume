@@ -48,8 +48,10 @@ github_username:  itsmyfirstname
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Matt, and im currently a software enginner working for Cigna Healthcare. 
-  I am most skilled in: <mark>Python</mark> and <mark>CI/CD</mark>
+  Hi, my name's Matt, and im currently a software engineer working for Cigna Healthcare. 
+  I am most skilled in: 
+    - <mark>Python</mark>
+    - <mark>CI/CD</mark>
 
 content:
   # - title: Projects # Title for the section
@@ -71,23 +73,22 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #         This was the first project I was assigned .
 
-  - title: Experience # Title for the section
+  - title: Devops Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Cigna Healthcare
-        link: cigna.com
+        title: CI/CD Pipeline
+        # link: cigna.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
+        sub_title: Software Engineering Advisor
         caption: May 2018 - Present
         quote: >
-          Cigna is a global health service leader dedicated to helping people improve their health, well-being and sense of security.
-        description: | # this will include new lines to allow paragraphs
-          Was assigned to the Global Data Retention team.
-          Our main responsibility was custodial in nature, as we were tasked with the deletion of data from various source systems. 
-          We ingested, classified, sorted, archived, and finally deleted data, following strict rules and protocols provided from our legal team, in compliance with global PII and PHI laws.
+          A robust pipleline designed to deploy microservices to a kubernetes cluster.
+        description: | 
+        - test
+        - test
+        - test
 
-          We coordinated with teams in asia, europe, and north america to delete customer data, which posed an undue risk to the company.  
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -99,16 +100,15 @@ content:
         quote: >
           Quinnipiac is a private, coeducational university where students engage in an educational experience that’s both personal and challenging from faculty who care deeply about student outcomes. We offer 150 programs to approximately 7,000 undergraduate and 3,000 graduate students.
         description: | # this will include new lines to allow paragraphs
-          Quinnipiac was a sleepy New England university, which fancies itself as a `little ivy`; always raised an eyebrow for me, but i digress.
-          My time at Quinnipiac taught me how to work with younger individuals with a greater skill set than myself, and helped me realize how much I enjoy identifying and prefecting patterns.
-          Most of my time was spent with my economics professor running through sasticical models, and learning R in the process. Shortly after learning R, I switched my major to CIS, so I 
+          My time at Quinnipiac taught me how to work with younger individuals with a greater skill set than myself, and helped me realize how much I enjoy identifying and perfecting patterns.
+          Most of my time was spent with my economics professor running through statistic models, and learning R in the process. Shortly after learning R, I switched my major to CIS, so I 
           could focus on the endless patterns that are associated with technology.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in automaton and software engineering some of my other interests and hobbies are:
-      - Flying
+      - Flying fixed wing and unmanned crafts
       - Carpentry
       - DC Electronics
 
