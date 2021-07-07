@@ -81,7 +81,11 @@ content:
         # link: cigna.com
         # link_text: boringcompany.com
         sub_title: Software Engineering Advisor
-        caption: May 2018 - Present
+        caption: 
+          Tech Stack:
+            - Jenkins
+            - Ansible (Tower)
+            - Docker
         quote: >
           A robust pipleline designed to deploy microservices to a kubernetes cluster.
         description: | 
